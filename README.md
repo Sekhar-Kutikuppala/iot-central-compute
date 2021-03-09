@@ -51,7 +51,7 @@ Format expected by IoT Central:
 Go to the [Azure Portal](https://portal.azure.com/) and navigate to where the Azure IoT Central Device Bridge was deployed.  Scroll the left hand navigation down to the "Development Tools" section and click "App Service Editor (Preview)".  You will then need to clik the "Go ->" link in the right panel to open a new tab with the App Service Editor page.  Here you can easily edit the code for your Azure Function.  We are going to need to do two changes here:
 
 1. Open the index.js file and select all the code in index.js and delete it.  Now replace it with the index.js code from this repository.  You will also need to paste in your Open Weather API key you created in the prerequisites above.  This is done in the space on line 38 of the index.js file.
-2. Open the lib/engine.js file and select all the code in index.js and delete it.  Now replace it with the Azure_function/lib/engine.js code from this repository.  Alternatively you can just paste in the following code at line 55 in the file as this is the only change we are making in the code:
+2. Open the lib/engine.js file and select all the code in engine.js and delete it.  Now replace it with the Azure_function/lib/engine.js code from this repository.  Alternatively you can just paste in the following code at line 55 in the file as this is the only change we are making in the code:
 
 ```
         // add a message property that we can look for in data export to not re-compute computed telemetry
