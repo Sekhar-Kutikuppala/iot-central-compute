@@ -107,9 +107,10 @@ const groupSasKey = "<IoT Central Group SAS key>";
 /////////////////////////////////////////////////////////////////////////////
 ```
 
-The Scope Id and the Group SAS key can be found in the IoT Central application by clicking the Administration -> Device connection in the left hand navigation.  Copy the ID Scope value and the "SAS-IoT-Devices" primary key into the code replacing the place holder text.  Save the file and from the command line in the "iot-central-compute\device" directory issue the following command to run the device:
+The Scope Id and the Group SAS key can be found in the IoT Central application by clicking the Administration -> Device connection in the left hand navigation.  Copy the ID Scope value and the "SAS-IoT-Devices" primary key into the code replacing the place holder text.  Save the file and from the command line in the "iot-central-compute\device" directory issue the following commands to run the device:
 
 ```
+npm install chance
 node device.js
 ```
  You should see the following similar output:
